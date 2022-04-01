@@ -1,0 +1,20 @@
+.d-grid{
+    display: grid;
+}
+.d-inline-grid{
+    display: inline-grid;
+}
+.there-fixed-px-columns{
+    grid-template-columns: 200px 100px 100px;
+}
+.six-fixed-px-columns{
+   grid-template-columns: 50px 50px 50px 100px 100px; 
+}
+
+.two-fixed-em-columns{
+grid-template-columns: 10em 100px;
+}
+
+.two-fixed-em-columns{
+    grid-template-columns: 10em 100px;
+    }
