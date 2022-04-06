@@ -1,0 +1,46 @@
+.block{
+    padding: 20px;
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 20px;
+}
+.grid{
+    display: grid;  
+}
+
+.grid-areas{
+    grid-template: 1fr / 1fr;
+    grid-template-areas: 
+    "logo-block"
+    "menu"
+    "header"
+    "content"
+    "footer";
+    
+}
+.grid-areas div:nth-child(1){
+    grid-area: menu;
+    justify-items:end;
+}
+.grid-areas div:nth-child(2){
+    grid-area: logo-block;    
+}
+
+.grid-areas div:nth-child(3){
+    grid-area: header;
+}
+.grid-areas div:nth-child(4){
+    grid-area: content;
+}
+.grid-areas div:nth-child(5){
+    grid-area: footer;
+}
+.align-item{
+    align-items: end;
+    
+}
+
+
+
+
+
