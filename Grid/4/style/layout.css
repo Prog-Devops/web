@@ -60,3 +60,12 @@
 .grid-more div:nth-child(4){
     grid-area: footer;
 }
+.grid-justify{
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-items: center;    
+}
+.align-item{
+    grid-template: 100px 100px / 100px 100px;
+    align-items: center;
+    align-items: start;
+}
