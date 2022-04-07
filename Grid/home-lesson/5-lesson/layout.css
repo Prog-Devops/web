@@ -1,0 +1,42 @@
+.block{
+    padding: 20px;
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 20px;
+}
+.grid{
+    display: grid;  
+}
+
+.align-self{
+    grid-template: repeat(3, 100px) / repeat(2, 1fr);    
+}
+.align-self div:nth-child(even){
+    align-self: center;
+}
+.place-content-grid{
+    grid-template: repeat(3, 100px) / repeat(2, 1fr);     
+}
+.place-content-grid div:nth-child(1){
+    place-content: baseline center;
+}
+.place-self-grid{
+    grid-template: repeat(3, 100px) / repeat(2, 1fr); 
+
+}
+
+.place-self-grid div:nth-child(even){
+    place-self: stretch center;
+}
+
+.align-self-grid{
+    grid-template: repeat(3, 100px) / repeat(2, 1fr); 
+}
+
+.align-self-grid div:nth-child(even){
+    align-self: center;
+}
+
+.min-content-grid{
+    grid-template-columns: 200px  min-content 200px;    
+}
