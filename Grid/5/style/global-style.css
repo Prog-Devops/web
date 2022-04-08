@@ -3,9 +3,7 @@ body{
     padding: 20px;
     font-size: 20px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
+    font-family: Arial, Helvetica, sans-serif;}
 .container{
     width: 400px;
     margin: 0 auto;
@@ -51,5 +49,4 @@ body{
 }
 
 .darkblue{
-    background-color: darkblue;
-}
+    background-color: darkblue;}
